@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cordova>
+<widget>
     <!-- ...  -->
 
-<plugins>
     <!-- ...  -->
-    <plugin name="SendSms" value="net.webootu.cordova.plugin.SendSms" />
-</plugins>
-</cordova>
+    <feature name="SendSms">
+        <param name="android-package" value="net.webootu.cordova.plugin.SendSms" />
+    </feature>
+
+</widget>
 
